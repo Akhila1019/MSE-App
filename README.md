@@ -11,7 +11,16 @@ MSE is an android application that helps a lady under threat to get support  fro
 ## Tech stack used in our proposed solution
 Android Application using Java 
 
-## How does this work?
+## What's our idea?
 
 When a woman feels insecure, she can turn on the app then the app starts running in the background. When the app detects a real panic scream, then the information about the her location will be sent immediately to the nearby police stations. So, she can get an immediate help from the police.
 
+## How does the app work at this stage?
+
+1. Record the input voice 
+2. Send GPS information immediately to the contact number mentioned in MapsActivity.java
+
+## What work do we still need to do?
+
+1. Real panic scream vs non-panic scream classification
+2. Immediate emergency call/SMS should be made to nearby police stations on scream detection
