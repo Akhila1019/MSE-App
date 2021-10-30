@@ -72,7 +72,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     mMap.addMarker(new MarkerOptions().position(latLng).title("MY location"));
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
 
-                    String phoneNumber = "9515409242";
+                    String phoneNumber = "9xxxxxxxxx";
                     String myLatitude = String.valueOf(location.getAltitude());
                     String myLongitude = String.valueOf(location.getLongitude());
 
