@@ -18,9 +18,9 @@ When a woman feels insecure, she can turn on the app then the app starts running
 ## How does the app work at this stage?
 
 1. Record the input voice 
-2. Send GPS information immediately to the contact number mentioned in MapsActivity.java
+2. Send GPS information immediately to the contact number mentioned in MapsActivity.java. As of now a sample contact number is used for testing the app.Later it can be changed to the police station number.
 
 ## What work do we still need to do?
 
 1. Real panic scream vs non-panic scream classification
-2. Immediate emergency call/SMS should be made to nearby police stations on scream detection
+2. Provide immediate support after recognising words similar to "help" in different languages.
